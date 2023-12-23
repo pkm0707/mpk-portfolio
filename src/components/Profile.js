@@ -23,13 +23,10 @@ export function Profile(){
             <Card sx={{ maxWidth: 345}}>
                 <CardMedia
                     sx={{ height: 240}}
-                    image="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg"
+                    image="https://t4.ftcdn.net/jpg/03/30/34/69/240_F_330346955_vdqBacC2osDMnTFwBo6EpWbsZBQobgqN.jpg"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
-                    Praveen Kumar M
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">MERN Stack Developer</Typography>
+                    <Typography variant="body2" color="text.secondary">Hi, I'm Praveen Kumar M, a recent graduate specializing in the MERN (MongoDB, Express.js, React.js, Node.js) stack. Eager to apply my skills in web development and contribute to innovative projects. Ready to embark on a journey of continuous learning and growth</Typography>
                 </CardContent>
                 <CardActions>
                     <Button size="small" variant='contained' onClick={()=>navigate("/about")}>Know More</Button>
