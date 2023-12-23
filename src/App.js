@@ -149,7 +149,7 @@ function App() {
               <Box sx={{ flexGrow: 0 }}>
                 <Tooltip title="Open settings">
                   <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                    <Avatar alt="pk" src="https://t4.ftcdn.net/jpg/03/30/34/69/240_F_330346955_vdqBacC2osDMnTFwBo6EpWbsZBQobgqN.jpg" />
+                    <Avatar alt="myprofile" src="/images/myprofile.jpg" />
                   </IconButton>
                 </Tooltip>
                 <Menu
