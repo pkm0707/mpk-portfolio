@@ -15,5 +15,9 @@ align-content: center;
 column-gap: 10px;
 padding: 10px;
 }
+.about-page{
+  padding: 50px;
+  line-height: 30px;
+}
 
 
