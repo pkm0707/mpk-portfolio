@@ -9,6 +9,7 @@ import { DiMongodb } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 export function About() { 
   return (
     <div className="about-page">
@@ -87,14 +88,17 @@ export function About() {
           </Typography>
         </AccordionDetails>
       </Accordion><br/>
-      <div style={{display:"flex",flexWrap:"wrap",justifyContent:"flex-start",alignItems:"center"}}>
-        <strong>🛠️ Technologies in My Toolbox : </strong>
-        <FaHtml5 size={50} color="orangered"/>
-        <FaCss3Alt size={50} color="blue"/>
-        <IoLogoJavascript size={50} color="paleyellow"/>
-        <DiMongodb size={50} color="green"/>
-        <FaReact size={50} color="blue"/>
-        <FaNode size={50} style={{marginLeft:10}}/>
+      <div>
+        <div><strong>🛠️ Technologies in My Toolbox : </strong></div><br/>
+        <div style={{display:"flex",flexWrap:"wrap",justifyContent:"space-evenly",alignItems:"center",border:"5px solid green",outline:"3px solid red",outlineOffset:"4px",padding:"10px"}}>
+          <FaHtml5 size={50} color="orangered"/>
+          <FaCss3Alt size={50} color="blue"/>
+          <IoLogoJavascript size={50} color="yellow"/>
+          <FaBootstrap size={50} color="#563d7c"/>
+          <DiMongodb size={50} color="green"/>
+          <FaReact size={50} color="blue"/>
+          <FaNode size={50} style={{marginLeft:10}}/>
+        </div>
       </div>
     </div>
   );

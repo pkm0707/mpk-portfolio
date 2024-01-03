@@ -22,8 +22,8 @@ export function Profile(){
         <div style={{display:"flex",flexWrap:"wrap",flexDirection:"column",justifyContent:"center",alignItems:"center",justifyItems:"center",marginTop:50}}>
             <Card sx={{ maxWidth: 345,backgroundColor:"gray"}}>
                 <CardMedia
-                    sx={{ height: 260}}
-                    image="/images/myprofile.jpg"
+                    sx={{ height: 250}}
+                    image="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg"
                 />
                 <CardContent>
                     <Typography variant="body2">Hi, I'm Praveen Kumar M, a recent graduate specializing in the MERN (MongoDB, Express.js, React.js, Node.js) stack. Eager to apply my skills in web development and contribute to innovative projects. Ready to embark on a journey of continuous learning and growth</Typography>
