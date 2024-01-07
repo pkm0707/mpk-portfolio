@@ -30,7 +30,7 @@ export function About() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>MERN Expertise</Typography>
+          <Typography><strong>MERN Expertise</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -46,7 +46,7 @@ export function About() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Problem Solver</Typography>
+          <Typography><strong>Problem Solver</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -62,7 +62,7 @@ export function About() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Continuous Learner</Typography>
+          <Typography><strong>Continuous Learner</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -78,14 +78,14 @@ export function About() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Collaborative Team Player</Typography>
+          <Typography><strong>Collaborative Team Player</strong></Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <div style={{textAlign:"justify"}}>
             I understand the significance of teamwork in achieving success. My
             effective communication skills and collaborative spirit make me a
             valuable asset in any development team.
-          </Typography>
+          </div>
         </AccordionDetails>
       </Accordion><br/>
       <div>

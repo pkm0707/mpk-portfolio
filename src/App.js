@@ -26,6 +26,7 @@ import { Profile } from './components/Profile';
 import { Projects } from './components/Projects';
 import { Resume } from './components/Resume';
 import { Home } from './components/Home';
+import { Bottomnavigation } from './components/Bottomnavigation';
 function App() {
   const navigate = useNavigate()
   const[mode,setMode]=useState("light")
@@ -187,9 +188,9 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      <Bottomnavigation/>
       </div>
     </ThemeProvider>
   );
 }
-
 export default App;
